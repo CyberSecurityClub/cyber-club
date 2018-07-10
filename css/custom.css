@@ -3,3 +3,13 @@
   margin-top: 60px;
   margin-bottom: 70px;
 }
+
+.navbar .navbar-brand {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+}
+
+.jumbotron {
+  background-image: url('../img/jumbo-cybersec.png');
+  background-size: cover;
+}

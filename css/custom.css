@@ -13,8 +13,3 @@
   background-image: url('../img/jumbo-cybersec.png');
   background-size: cover;
 }
-
-.list-scrollable {
-  max-height: 300px;
-  overflow-y: scroll;
-}

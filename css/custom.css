@@ -13,3 +13,7 @@
   background-image: url('../img/jumbo-cybersec.png');
   background-size: cover;
 }
+
+.card-role {
+  font-size: 14px;
+}

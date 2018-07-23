@@ -44,3 +44,17 @@
 .card-header:first-child {
   background: #343a40;
 }
+
+.other-page-links {
+  font-weight: bold;
+  color: #3b94d9;
+}
+
+.light-blue-font {
+  font-weight: bold;
+  color: #3b94d9;
+}
+
+.black-bold-font {
+  font-weight: bold;
+}

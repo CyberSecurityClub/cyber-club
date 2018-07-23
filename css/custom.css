@@ -12,4 +12,49 @@
 .jumbotron {
   background-image: url('../img/jumbo-cybersec.png');
   background-size: cover;
+  padding-top: 200px;
+}
+
+.card-role {
+  font-size: 14px;
+}
+
+.card-title-advisor {
+  color: #3b94d9;
+}
+
+.card-title-admin {
+  color: #17a2b8;
+}
+
+#advisor-section {
+  color: #3b94d9;
+  text-shadow: 2px 2px 2px #D3D3D3;
+}
+
+#admin-section {
+  color: #17a2b8;
+  text-shadow: 2px 2px 2px #D3D3D3;
+}
+
+.affliliates-header {
+  color: #ffffff;
+}
+
+.card-header:first-child {
+  background: #343a40;
+}
+
+.other-page-links {
+  font-weight: bold;
+  color: #3b94d9;
+}
+
+.light-blue-font {
+  font-weight: bold;
+  color: #3b94d9;
+}
+
+.black-bold-font {
+  font-weight: bold;
 }

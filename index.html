@@ -30,18 +30,24 @@
           <a class="nav-item nav-link" href="#about">About</a>
           <a class="nav-item nav-link" href="#mission">Mission</a>
           <a class="nav-item nav-link" href="#people">People</a>
+          <a class="nav-item nav-link" href="#affiliates">Affiliates</a>
           <a class="nav-item nav-link" href="#contact">Contact</a>
-		  <li class="nav-item dropdown">
-			<a class="nav-item nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Affiliates</a>
-			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				<a class="dropdown-item" href="#">Cyber Camp 2018</a>
-				<a class="dropdown-item" href="#">Competition Team</a>
-				<a class="dropdown-item" href="#">Facebook CTF</a>
-				<a class="dropdown-item" href="#">Server Club</a>
-				<a class="dropdown-item" href="#">Projects</a>
-				<a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSeJW6Zjfog0hTfNMXF5QcDmgoj54vIFODn2xD_uEsoy249mjg/viewform">Slack Channel (CCSF email only)</a>
-			</div>
-		</li>
+
+          <!-- Affiliates section dropdown on Navbar, comment out for now -->
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-item nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Affiliates</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Cyber Camp 2018</a>
+              <a class="dropdown-item" href="#">Competition Team</a>
+              <a class="dropdown-item" href="#">Facebook CTF</a>
+              <a class="dropdown-item" href="#">Server Club</a>
+              <a class="dropdown-item" href="#">Projects</a>
+              <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSeJW6Zjfog0hTfNMXF5QcDmgoj54vIFODn2xD_uEsoy249mjg/viewform">Slack Channel (CCSF email only)</a>
+            </div>
+          </li> -->
+          <!-- /Affiliates section dropdown on Navbar, comment out for now -->
+
         </div>
       </div>
     </div>
@@ -50,7 +56,7 @@
 
   <!-- jumbotron -->
   <div class="jumbotron jumbotron-fluid bg-info text-white">
-    <div class="container text-sm-center pt-5">
+    <div class="container text-sm-center">
       <h1 class="display-2">Cyber Security Club</h1>
       <p class="lead">Take your skills to the next level at City College of San Francisco!</p>
     </div>
@@ -60,29 +66,34 @@
   <div class="container pt-4">
     <!-- about -->
     <div id="about" class="row mb-5">
+      <!-- About column -->
       <div class="col-lg order-lg-1">
         <h3 class="mb-4">About</h3>
-        <img class="mb-4 img-fluid rounded d-none d-sm-block" src="img/pdx.png" alt="Keyboard Photo by Markus Petritz on Unsplash">
+        <img class="mb-4 img-fluid rounded" src="img/pdx.png" alt="Keyboard Photo by Markus Petritz on Unsplash">
         <p>The Cyber Security Club is a student-run organization at City College of San Francisco.</p> 
         <p>Members and leaders are pursuing studies in cyber security, computer science, computer engineering and information systems.</p>
       </div>
+      <!-- Meeting Info column-->
       <div class="col-lg order-lg-2">
         <h3 class="mb-4">Meeting Info</h3>
-        <img class="mb-4 img-fluid rounded d-none d-sm-block" src="img/team.png" alt="Team Photo by Annie Spratt on Unsplash">
+        <img class="mb-4 img-fluid rounded" src="img/team.png" alt="Team Photo by Annie Spratt on Unsplash">
         <p><strong>Monday 4 - 6 pm, S37</strong></p>
         <p><strong>Tuesday 6 - 8 pm, S300</strong><br>(alternative meeting time)</p>
         <a href="https://www.google.com/maps/place/City+College+of+San+Francisco/@37.7256646,-122.4512949,15z/data=!4m5!3m4!1s0x0:0x4f5e8afd35ebb9b9!8m2!3d37.7256646!4d-122.4512949"
         target="_blank"><p class="mb-4">City College of San Francisco (map)</p></a>
       </div>
+      <!-- Twitter Feed column -->
       <div class="col-lg order-lg-3">
-	    <!--TODO: Change this to actual account -->
-		<a class="twitter-timeline" data-width="690" data-height="400" data-dnt="true" data-link-color="#E81C4F" href="https://twitter.com/CCSF_Cyber_Sec?ref_src=twsrc%5Etfw">Tweets by CCSF Cyber Sec</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	      <!-- TODO: Change this to actual account -->
+        <a class="twitter-timeline" data-width="690" data-height="400" data-dnt="true" data-link-color="#E81C4F" href="https://twitter.com/CCSF_Cyber_Sec?ref_src=twsrc%5Etfw">Tweets by CCSF Cyber Sec</a> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
     <!-- /about -->
 
-    <!-- mission -->
     <hr>
+
+    <!-- mission -->
     <section id="mission">
       <h1 class="display-4 text-center text-muted">Our Mission</h1>
       <div class="container">
@@ -90,160 +101,328 @@
       </div>
       <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#missionModal">Read Full Statement</button>
     </section>
-		<!--popup mission statement-->
-	<div class="modal fade" tabindex="-1" role="dialog" id="missionModal">
-		<div class="modal-dialog modal-lg" role="document">
-		<div class="modal-content">
-		<div class="modal-header">
-			<h5 class="modal-title">Mission Statement:</h5>
-		</div>
-		<div class="modal-body">
-			<p>
-      The CCSF Cyber Security Club is a student-run organization at City College of San Francisco. Club member and leaders are currently pursuing studies in cyber security, computer science, computer engineering, and information systems.
-      The club’s main purpose is to prepare students for careers in cyber security and tech industry. To achieve our goal, the club organizes weekly meetings where students are introduced to cyber security concepts such as: network security, digital forensics, secure coding, encryption, reverse engineering, and social engineering, to name a few. In addition, the Cyber Security Club will partner with CNIT instructors, local companies, and organizations to speak at club meetings and to highlight their work in cyber security.
-      </p>
-      <p>
-      The Cyber Security Club supports students who compete in the intercollegiate cyber competitions such as the Western Regional Cyber Collegiate Defence Competition (WRCCDC) and Collegiate Penetration Testing Competition (CPTC) by building a Capture the Flag (CTF) practice environment. The CTF practice environment will allow advanced cyber security and computer science students the opportunity to collaborate, create, and deploy their own practice platform.
-			The Cyber Security Club is an inclusive organization that promotes racial, gender, social, and economic diversity.
-			</p>
-		</div>
-		</div>
-		</div>
-	</div>
-		<!--/popup mission statement-->
-    <hr>
+		<!-- popup mission statement -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="missionModal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Mission Statement</h5>
+          </div>
+          <div class="modal-body">
+            <p>
+            The CCSF Cyber Security Club is a student-run organization at City College of San Francisco. Club member and leaders are currently pursuing studies in cyber security, computer science, computer engineering, and information systems.
+            The club’s main purpose is to prepare students for careers in cyber security and tech industry. To achieve our goal, the club organizes weekly meetings where students are introduced to cyber security concepts such as: network security, digital forensics, secure coding, encryption, reverse engineering, and social engineering, to name a few. In addition, the Cyber Security Club will partner with CNIT instructors, local companies, and organizations to speak at club meetings and to highlight their work in cyber security.
+            </p>
+            <p>
+            The Cyber Security Club supports students who compete in the intercollegiate cyber competitions such as the Western Regional Cyber Collegiate Defence Competition (WRCCDC) and Collegiate Penetration Testing Competition (CPTC) by building a Capture the Flag (CTF) practice environment. The CTF practice environment will allow advanced cyber security and computer science students the opportunity to collaborate, create, and deploy their own practice platform.
+            The Cyber Security Club is an inclusive organization that promotes racial, gender, social, and economic diversity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /popup mission statement -->
     <!-- /mission -->
 
+    <hr>
+
     <!-- people -->
-    <h1 id="people" class="display-4 text-center my-5 text-muted">People</h1>
+    <h1 id="people" class="display-4 text-center text-muted">People</h1>
+    <h2 id="advisor-section" class="display-5 text-center my-4">Board of Advisors</h2>
     <div class="row">
+      <!-- Richard Wu -->
       <div class="col-md-6 col-lg-4">
         <div class="card mb-3">
-<img class="card-img-top" src="img/placeimg_800x480.jpg" alt="Vivianne">
-          <div class="card-body">
-            <h4 class="card-title">President, Kerrie Lu</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc felis, tempor et pretium eget, luctus a orci. Sed sit amet pharetra nibh, vel bibendum justo.</p>
+          <a href="http://www.richardsclass.info/">
+            <img class="card-img-top d-none d-sm-block" src="img/placeimg_800x480.jpg" alt="Richard Wu">
+          </a>
+          <div class="card-body"> 
+            <a class="card-title-advisor" href="http://www.richardsclass.info/">
+            <h5 class="text-center">Richard Wu</a><br/><span class="card-role text-muted">CNIT Instructor</span></h5>
           </div>
         </div>
       </div>
     
+      <!-- Sam Bowne -->
       <div class="col-md-6 col-lg-4">
         <div class="card mb-3">
-          <img class="card-img-top" src="img/placeimg_800x480.jpg" alt="NodeStradamus">
+          <a href="https://samsclass.info/">
+            <img class="card-img-top d-none d-sm-block" src="img/sambowne_800x480.jpg" alt="Sam Bowne">
+          </a>
           <div class="card-body">
-            <h4 class="card-title">Treasurer, Danny Mou</h4>
-            <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc felis, tempor et pretium eget, luctus a orci. Sed sit amet pharetra nibh, vel bibendum justo.</p>
+            <a class="card-title-advisor" href="https://samsclass.info/">
+            <h5 class="text-center">Sam Bowne</a><br/><span class="card-role text-muted">CNIT Instructor</span></h5>
           </div>
         </div>
       </div>
     
+      <!-- Alan Wennersten -->
       <div class="col-md-6 col-lg-4">
         <div class="card mb-3">
-          <img class="card-img-top" src="img/placeimg_800x480.jpg" alt="RobbieRedux">
+          <a href="https://www.ccsf.edu/Info/Dir/cgi-bin/ccsfdirs.pl?words=Wennersten,%20Alan%20%20&type=2&Semester=5">
+            <img class="card-img-top d-none d-sm-block" src="img/alanwennersten_800x480.jpg" alt="Alan Wennersten">
+          </a>
           <div class="card-body">
-            <h4 class="card-title">Website, Edison Lam</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc felis, tempor et pretium eget, luctus a orci. Sed sit amet pharetra nibh, vel bibendum justo.</p>
+            <a class="card-title-advisor" href="https://www.ccsf.edu/Info/Dir/cgi-bin/ccsfdirs.pl?words=Wennersten,%20Alan%20%20&type=2&Semester=5">
+            <h5 class="text-center">Alan Wennersten</a><br/><span class="card-role text-muted">CNIT Instructor</span></h5>
           </div>
         </div>
       </div>
     
+      <!-- Olivia Herriford -->
       <div class="col-md-6 col-lg-4">
         <div class="card mb-3">
-          <img class="card-img-top" src="img/placeimg_800x480.jpg" alt="EcmaScriptnstuff">
+          <a href="https://www.linkedin.com/in/oliviaherriford">
+            <img class="card-img-top d-none d-sm-block" src="img/oliviaherriford_800x480.jpg" alt="Olivia Herriford">
+          </a>
           <div class="card-body">
-            <h4 class="card-title">Advisor, Sam Bowne</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc felis, tempor et pretium eget, luctus a orci. Sed sit amet pharetra nibh, vel bibendum justo.</p>
+            <a class="card-title-advisor" href="https://www.linkedin.com/in/oliviaherriford">
+            <h5 class="text-center">Olivia Herriford</a><br/><span class="card-role text-muted">Cybersecurity Apprenticeship Grant Manager</span></h5>
           </div>
         </div>
       </div>
     
+      <!-- Steven Nelson -->
       <div class="col-md-6 col-lg-4">
         <div class="card mb-3">
-          <img class="card-img-top" src="img/placeimg_800x480.jpg" alt="JayQuery">
+          <a href="https://www.linkedin.com/in/steven-nelson-b59605b2">
+            <img class="card-img-top d-none d-sm-block" src="img/bench-accounting-unsplash_800x480.jpg" alt="Steven Nelson">
+          </a>
           <div class="card-body">
-            <h4 class="card-title">Advisor, Olivia Herreford</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc felis, tempor et pretium eget, luctus a orci. Sed sit amet pharetra nibh, vel bibendum justo.</p>
+            <a class="card-title-advisor" href="https://www.linkedin.com/in/steven-nelson-b59605b2">
+            <h5 class="text-center">Steven Nelson</a><br/><span class="card-role text-muted">Employment and Training Specialist</span></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="admin-section" class="display-5 text-center my-4">Administrators</h2>
+
+    <div class="row mb-5">
+      <!-- Kerri Lu -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <a href="https://www.linkedin.com/in/kerrie-lu/">
+            <img class="card-img-top d-none d-sm-block" src="img/kerrielu_800x480.jpg" alt="Kerrie Lu">
+          </a>
+          <div class="card-body">
+            <a class="card-title-admin" href="https://www.linkedin.com/in/kerrie-lu/">
+            <h5 class="text-center">Kerrie Lu</a><br/><span class="card-role text-muted">President &amp; ICC Rep</span></h5>
           </div>
         </div>
       </div>
 
+      <!-- Danny Mou -->
       <div class="col-md-6 col-lg-4">
         <div class="card mb-3">
-          <img class="card-img-top" src="img/placeimg_800x480.jpg" alt="JsonBabel">
+          <img class="card-img-top d-none d-sm-block" src="img/freestocks-org-unsplash_800x480.jpg" alt="Danny Mou">
           <div class="card-body">
-            <h4 class="card-title">Advisor, Steven Nelson</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc felis, tempor et pretium eget, luctus a orci. Sed sit amet pharetra nibh, vel bibendum justo.</p>
+            <h5 class="card-title-admin text-center">Danny Mou<br/><span class="card-role text-muted">Treasurer &amp; Web Developer</span></h5>
           </div>
         </div>
       </div>
-    
-      <div class="col-md-6">
+
+      <!-- Edison Lam -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <a href="https://www.linkedin.com/in/edison-lam-38964834">
+            <img class="card-img-top d-none d-sm-block" src="img/simon-abrams-unplash_800x480.jpg" alt="Edison Lam">
+          </a>
+          <div class="card-body">
+            <a class="card-title-admin" href="https://www.linkedin.com/in/edison-lam-38964834">
+            <h5 class="text-center">Edison Lam</a><br/><span class="card-role text-muted">ICC Rep &amp; Webmaster</span></h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dylan James Smith -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <a href="https://www.linkedin.com/in/dylanjamessmith/">
+            <img class="card-img-top d-none d-sm-block" src="img/dylansmith_800x480.jpg" alt="Dylan James Smith">
+          </a>
+          <div class="card-body">
+            <a class="card-title-admin" href="https://www.linkedin.com/in/dylanjamessmith/">
+            <h5 class="text-center">Dylan James Smith</a><br/><span class="card-role text-muted">Student Advisor</span></h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Elizabeth Biddlecome -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <a href="https://www.linkedin.com/in/ebiddlecome/">
+            <img class="card-img-top d-none d-sm-block" src="img/elizabethbiddlecome_800x480.jpg" alt="Elizabeth Biddlecome">
+          </a>
+          <div class="card-body">
+            <a class="card-title-admin" href="https://www.linkedin.com/in/ebiddlecome/">
+            <h5 class="text-center">Elizabeth Biddlecome</a><br/><span class="card-role text-muted">Student Advisor</span></h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Amy Boudsady -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card mb-3">
+          <a href="https://www.linkedin.com/in/amyboudsady">
+            <img class="card-img-top d-none d-sm-block" src="img/amyboudsady_800x480.jpg" alt="Amy Boudsady">
+          </a>
+          <div class="card-body">
+            <a class="card-title-admin" href="https://www.linkedin.com/in/amyboudsady">
+            <h5 class="text-center">Amy Boudsady</a><br/><span class="card-role text-muted">Project Manager, Web Developer</span></h5>
+          </div>
+        </div>
       </div>
     </div>
     <!-- /people -->
 
+    <hr>
+    
+    <!-- affiliates -->
+    <h1 id="affiliates" class="display-4 text-center text-muted">Affiliates</h1>
+
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h5 class="affliliates-header">Cyber Camp 2018</h5>
+            </button>
+          </h5>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+
+            <div class="row">
+              <div class="col-lg-3">
+                <img id="slack-icon" class="mb-4 img-fluid rounded d-none d-sm-block" src="img/cyber_camp.png" alt="Cyber Camp">
+              </div>
+              <div class="col-lg-9">
+                <p>Cyber Camp gives high school students a chance to learn about cyber security. They are given a week of training and then take those skills to participate against other schools in real-time to secure Windows and Linux systems.</p>
+                <p><a class="other-page-links" href="https://www.baycyber.net/" target="_blank">Click here</a> to learn more about the camp and how to participate.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h5 class="affliliates-header">Competition Team</h5>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-3">
+                <img id="slack-icon" class="mb-4 img-fluid rounded d-none d-sm-block" src="img/competition_team.png" alt="CCSF Competition Team">
+              </div>
+              <div class="col-lg-9">
+                <p>In 2017, City College's ethical hacking team placed second during a two-day cyber security competition in the Collegiate Penetration Testing Championship (CPTC). Only top teams from each region are selected to further compete in nationals during the fall.</p>
+                <p class="black-bold-font">Stay posted to learn more if you are interested in joining the team.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h5 class="affliliates-header">Facebook CTF</h5>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-3">
+                <img id="slack-icon" class="mb-4 img-fluid rounded d-none d-sm-block" src="img/facebook_ctf.png" alt="Facebook CTF">
+              </div>
+              <div class="col-lg-9">
+                <p>Join us to help develop or participate in City College's game of Facebook CTF!</p>
+                <p class="black-bold-font">Stay posted to learn more if you are interested in participating.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <h5 class="affliliates-header">Server Club</h5>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+
+            <div class="row">
+              <div class="col-lg-3">
+                <img id="slack-icon" class="mb-4 img-fluid rounded d-none d-sm-block" src="img/pdx.png" alt="Server Club">
+              </div>
+              <div class="col-lg-9">
+                <p>When it comes to programming, do you love developing server side architecture? If so, join our team!</p>
+                <p class="black-bold-font">More information coming soon.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              <h5 class="affliliates-header">Slack Channel</h5>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-3">
+                <img id="slack-icon" class="mb-4 img-fluid rounded d-none d-sm-block" src="img/slack_icon.png" alt="Slack Icon">
+              </div>
+              <div class="col-lg-9">
+                <p>Join the conversation, be a part of our Cyber Security community at City College of San Francisco. Be informed about announcements, events and job opportunities.</p>
+                <p><a class="other-page-links" href="https://docs.google.com/forms/d/1J7b2pR0ixhp59mopNR_AWVYMOVrwd_1WaI4SuOBxleE/edit" target="_blank">Click here</a> fill out our questionnaire and we will invite you to our Slack.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /affiliates -->
+
+    <hr>
+
     <!-- contact -->
     <h1 id="contact" class="display-4 text-center my-5 text-muted">Contact</h1>
-	
-	<form id="contactForm">
-		<div class="form-group">
-			<label for="exampleInputEmail1">Email address</label>
-			<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" 	placeholder="Enter email">
-			<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else. Unless you want to.</small>
-		</div>
-		<div class="form-group">
-			<label for="inputName">Full name</label>
-			<input class="form-control" id="inputName" placeholder="Bob Ross">
-		</div>
-	<input type="button" value="Submit" onclick="postMSG()" class="btn btn-primary"/>
-	</form>
-  
-	<!-- Submit Function for Contact Form -->
-	<script>
-	function postMSG() {
-		//Get values from input form above
-		var email = document.getElementById("inputEmail").value;
-		var name = document.getElementById("inputName").value;
-		
-		//Format the text that will show up in Slack
-		var text = "Name: " + name + " | Email: " + email;
-		
-		//Payload function to prepare JSON Object, channel destination here.
-		var payload = formatForSlack(text, "contact-us");
-		
-		//The POST request done by JQuery
-		$.ajax({
-		
-			url: 'https://hooks.slack.com/services/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',
-			type: 'POST',
-			processData: true,
-			data : payload,
-			success : function(data) {
-				alert("Success!");
-			},
-			error : function(data) {
-				alert("Failed!");
-				console.log(data);
-			}
-		});
-	}
-	
-	//Format JSON for Slack
-	function formatForSlack(msg, chan){
-		var payload ={
-			"channel":chan,
-			"text": msg
-		};
-		// return json string of payload
-		return JSON.stringify(payload);
-	}
-	</script>
-	<!-- /Submit Function for Contact Form -->
-	
+    
+    <!-- form -->
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else. Unless you want to.</small>
+      </div>
+      <div class="form-group">
+        <label for="inputName">Full name</label>
+        <input class="form-control" id="inputName" placeholder="Bob Ross">
+      </div>
+      <input type="button" value="Submit" onclick="postMSG()" class="btn btn-primary" />
+    </form>
+    <!-- /form -->
     <!-- /contact -->
 
-    <!-- footer -->
+    </div> <!--/container-->
+
     <hr>
+
+    <!-- footer -->
     <div class="row py-3">
       <div class="col-md text-center">
         <small>&copy; 2018 Cyber Security Club, City College of San Francisco</small>
@@ -257,10 +436,6 @@
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	
+  <script src="assets/index.js"></script>
   </body>
-</html>
-
-</body>
-
 </html>

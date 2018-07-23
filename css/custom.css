@@ -17,3 +17,22 @@
 .card-role {
   font-size: 14px;
 }
+
+.card-title-advisor {
+  color: #3b94d9;
+}
+
+.card-title-admin {
+  color: #17a2b8;
+}
+
+#advisor-section {
+  color: #3b94d9;
+  text-shadow: 2px 2px 2px #D3D3D3;
+}
+
+#admin-section {
+  color: #17a2b8;
+  text-shadow: 2px 2px 2px #D3D3D3;
+}
+

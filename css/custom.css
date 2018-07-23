@@ -38,6 +38,9 @@
 }
 
 .affliliates-header {
-  color: #3b94d9;
+  color: #ffffff;
 }
 
+.card-header:first-child {
+  background: #343a40;
+}

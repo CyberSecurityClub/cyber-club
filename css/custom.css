@@ -12,6 +12,7 @@
 .jumbotron {
   background-image: url('../img/jumbo-cybersec.png');
   background-size: cover;
+  padding-top: 200px;
 }
 
 .card-role {

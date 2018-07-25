@@ -1,4 +1,14 @@
-#mission {
+.a:hover {
+  color: none;
+}
+
+#mission-section {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+#intro-cybercamp-section {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 70px;
@@ -9,8 +19,14 @@
   font-size: 1rem;
 }
 
-.jumbotron {
+.jumbotron-home {
   background-image: url('../img/jumbo-cybersec.png');
+  background-size: cover;
+  padding-top: 200px;
+}
+
+.jumbotron-cybercamp {
+  background-image: url('../img/jumbo-cybercamp.png');
   background-size: cover;
   padding-top: 200px;
 }
@@ -19,7 +35,7 @@
   font-size: 14px;
 }
 
-.card-title-advisor {
+.card-title-lightblue {
   color: #3b94d9;
 }
 
@@ -37,7 +53,7 @@
   text-shadow: 2px 2px 2px #D3D3D3;
 }
 
-.affliliates-header {
+.projects-header {
   color: #ffffff;
 }
 
@@ -57,4 +73,33 @@
 
 .black-bold-font {
   font-weight: bold;
+}
+
+.fancy-font {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #3b94d9;
+  background-image: none; 
+  border-color: #3b94d9;
+}
+
+.contact-info a {
+  color: #343a40;
+  padding: 10px;
+  display: inline-block;
+}
+
+#slack-icon {
+  height: 50px;
+}
+
+.btn-outline-light {
+  color: #343a40;
+  background-color: transparent;
+  background-image: none;
+  border-color: #343a40;
 }

@@ -18,7 +18,7 @@ This website is one of our many projects that we would love for students or pros
 * Go back to the repo in GitHub and make a Pull Request and submit
 * Wait until one of the Club Admins review your code and they'll merge it in
 * If there are any merge conflicts, the Admin will let you know and it'll be a matter of communicating to fix the changes
-* That's about it! Don't be afraid to try to contribute. This a is a space to learn :) 
+* That's about it! Don't be afraid to try to contribute. This is a space to learn :) 
 
 ## Style Guide
 The goal is to keep the website as simple and clean. The selection of the color theme with blue is because research shows that the color blue represents a sense of calmness and trust. In addition, we want to make sure that our website account aspects of accessbility, choose color contrast that makes it ok for people who are colorblind. Also, if you input images, make sure you include explain it in the "alt" attribute inside the image tag so that screen readers can explain to those who are blind, what image was supposed to be there. For example, if it's a photo a someone, write that person's name down.

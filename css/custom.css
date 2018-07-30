@@ -1,35 +1,38 @@
+/* Remove link underline when user hovers over anchor tag */
 .a:hover {
   color: none;
 }
 
-#mission-section {
-  text-align: center;
-  margin-top: 60px;
-  margin-bottom: 70px;
-}
-
-#intro-cybercamp-section {
-  text-align: center;
-  margin-top: 60px;
-  margin-bottom: 70px;
-}
-
+/* Styling for CyberSecurityClub text for Navbar Brand */
 .navbar .navbar-brand {
   color: rgba(255, 255, 255, 0.85);
   font-size: 1rem;
 }
 
+/* Google font's styling for the curvise-like fonts */
+.fancy-font {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+}
+
+/* ============================== index.html ================================ */
+
+/* Jumbotron Homepage */
 .jumbotron-home {
   background-image: url('../img/jumbo-cybersec.png');
   background-size: cover;
   padding-top: 200px;
 }
 
-.jumbotron-cybercamp {
-  background-image: url('../img/jumbo-cybercamp.png');
-  background-size: cover;
-  padding-top: 200px;
+
+/* Styling for the Mission section of the website */
+#mission-section {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 70px;
 }
+
+/* Cards styling for People section */
 
 .card-role {
   font-size: 14px;
@@ -53,6 +56,8 @@
   text-shadow: 2px 2px 2px #D3D3D3;
 }
 
+/* Styling for Projects section */
+
 .projects-header {
   color: #ffffff;
 }
@@ -75,15 +80,12 @@
   font-weight: bold;
 }
 
-.fancy-font {
-  font-family: 'Lobster', cursive;
-  font-size: 30px;
-}
+/* Styling for Contact section */
 
 .btn-primary {
   color: #ffffff;
   background-color: #3b94d9;
-  background-image: none; 
+  background-image: none;
   border-color: #3b94d9;
 }
 
@@ -92,6 +94,8 @@
   padding: 10px;
   display: inline-block;
 }
+
+/* Styling for Slack contact button */
 
 #slack-icon {
   height: 50px;
@@ -108,6 +112,24 @@
   color: #343a40;
 }
 
+/* Styling for Footer section */
+
 .footer-row {
   background-color: #343a40;
+}
+
+/* ============================== cybercamp.html ================================ */
+
+/* Styling for Cyber Camp 2018 Jumbotron */
+.jumbotron-cybercamp {
+  background-image: url('../img/jumbo-cybercamp.png');
+  background-size: cover;
+  padding-top: 200px;
+}
+
+/* Styling for the Cyber Camp 2018's Purpose section in cybercamp.html */
+#intro-cybercamp-section {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 70px;
 }

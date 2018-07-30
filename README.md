@@ -17,7 +17,7 @@ This website is one of our many projects that we would love for students or pros
 * Make a commit and push it to your branch in your local terminal
 * Go back to the repo in GitHub and make a Pull Request and submit
 * Wait until one of the Club Admins review your code and they'll merge it in
-* If there are any merge conflicts, the Admin will let you know and it'll be a matter or communicating to fix the changes
+* If there are any merge conflicts, the Admin will let you know and it'll be a matter of communicating to fix the changes
 * That's about it! Don't be afraid to try to contribute. This a is a space to learn :) 
 
 ## Style Guide

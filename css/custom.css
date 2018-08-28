@@ -133,3 +133,11 @@
   margin-top: 60px;
   margin-bottom: 70px;
 }
+
+/* ============================= fbctf.html ===================================== */
+
+.jumbotron-fbctf {
+  background-image: url('../img/jumbo-fbctf.png');
+  background-size: cover;
+  padding-top: 200px;
+}

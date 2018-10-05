@@ -15,6 +15,12 @@
   font-size: 30px;
 }
 
+/* Smaller size for Google font's styling */
+.fancy-font-small {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+}
+
 /* ============================== index.html ================================ */
 
 /* Jumbotron Homepage */

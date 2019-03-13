@@ -1,5 +1,5 @@
-# Cyber Security Club, City College of San Francisco
-Welcome to City College of San Francisco's Cyber Security Club's website project. The goal of this project is to create a one-stop shop for students and industry partners to learn about our organization, stay informed about our activities and also participate. 
+# CCSF Cyber Club, City College of San Francisco
+Welcome to City College of San Francisco's CCSF Cyber Club's website project. The goal of this project is to create a one-stop shop for students and industry partners to learn about our organization, stay informed about our activities and also participate. 
 
 <kbd>![alt text](img/homepage_screenshot.png "Home page screenshot")</kbd>
 
@@ -9,7 +9,7 @@ This website is one of our many projects that we would love for students or pros
 ## How to contribute?
 * First, set up an account with GitHub
 * Contact one of the Club Administrators and they'll invite you to become a contributor
-* Next, go to the cyber-security-club repo in GitHub and click on the Issues tab
+* Next, go to the cyber-club repo in GitHub and click on the Issues tab
 * You'll see a list of Issues, pick and choose which you'd like to tackle
 * Comment to let the Admin know you plan on working on that Issue
 * Then, go back to main GitHub page of the repo and clone the project to your local environment

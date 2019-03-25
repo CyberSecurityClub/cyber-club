@@ -26,4 +26,4 @@ The goal is to keep the website as simple and clean. The selection of the color 
 * Images in the About, Meeting Info, Projects and Teams sections, it's 1024×436 pixels
 
 ## Live website link
-https://cybersecurityclub.github.io/cyber-security-club/
+https://cybersecurityclub.github.io/cyber-club/

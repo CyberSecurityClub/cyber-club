@@ -30,6 +30,10 @@
   padding-top: 200px;
 }
 
+/* Mailing List*/
+.btn-mail {
+  width: 60%
+}
 
 /* Styling for the Mission section of the website */
 #mission-section {
